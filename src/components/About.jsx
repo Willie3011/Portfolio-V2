@@ -36,7 +36,7 @@ function About() {
     }, [])
 
     return (
-        <div className="my-16 py-16">
+        <div id='about' className="my-16 py-16">
             <Container>
                 <SectionHeading heading="About me" paragraph="Here you will find more information about me, What I do, and my current skills mostly in terms of programming and technology."/>
 
