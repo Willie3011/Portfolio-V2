@@ -1,8 +1,12 @@
-import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import gsap from "gsap";
+import { ScrollTrigger, SplitText } from "gsap/all";
 import Homepage from "./pages/Homepage"
 import ProjectPage from "./pages/ProjectPage"
 import MainLayout from "./layouts/MainLayout"
 import ProjectsPage from "./pages/ProjectsPage"
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const router = createBrowserRouter([
   {

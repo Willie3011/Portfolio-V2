@@ -8,3 +8,11 @@
     --color-accent:#e3b23c;
     --color-gray:#6e675f;
 }
+
+@utility flex-center {
+    @apply flex justify-center items-center;
+}
+
+@utility col-center {
+    @apply flex flex-col justify-center items-center;
+}
